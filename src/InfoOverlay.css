@@ -1,0 +1,62 @@
+#leftInfoPanel {
+  position: absolute;
+  margin-left: 1%;
+  padding-top: 0;
+  margin-top: 0;
+  pointer-events: none;;
+}
+
+#rightInfoPanel {
+  position: absolute;
+  right: 0;
+  padding-right: 1%;
+  text-align: right;
+  pointer-events: none;
+}
+
+#infoDate {
+  margin:0;
+  color: rgb(182, 173, 45);
+  font-size: 1.5rem;
+}
+#infoTime {
+  margin:0;
+  color: rgb(182, 173, 45);
+  font-size: 2rem;
+}
+
+#infoTemp {
+  margin:0;
+  margin-top: -1rem;
+  color: rgb(179,0,72);
+  font-size: 4rem;
+  padding: 0;
+}
+
+#infoFeelsLike {
+  margin:0;
+  margin-top: -1rem;
+  padding: 0;
+  color: rgb(179,0,72);
+  font-size: 1.5rem;
+}
+
+#infoPrecip {
+  margin: 0;
+  margin-top: 0.5rem;
+  color: cyan;
+  font-size: 1.5rem;
+}
+
+#infoCloudCover {
+  margin: 0;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+}
+
+.bitOfInfo {
+  font-family: 'Dank Mono';
+  font-weight: bold;
+  text-shadow: 0 0 0.1rem black;
+}
+
