@@ -1,6 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather You Like it or Not
+**A demo weather dashboard made for a talk**
 
-## Available Scripts
+![](screenshot.png)
+
+I made this to demonstrate, within ~30min of live coding, some simple applications of working with SVG in React. It uses [ClimaCell](https://developer.climacell.co/)'s weather API and draws a simple, concise dashboard of the hourly weather forcast for the next four days or so.
+
+## Setup
+
+You can run this thing right out of the box with dummy data with a simple `$ yarn && yarn start`. If you want real data, go get yourself an API key from [ClimaCell](https://developer.climacell.co/sign-up). Then fill in the appropriate data in `src/hooks/secretSquirrel.js`.
+
+
+-------------------------------------------
+## Create React App shenanigans
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
