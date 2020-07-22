@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { API_KEY, LATITUDE, LONGITUDE } from './secretSquirrel';
 
-// import dummyWeatherData from './dummyWeatherData.json'
+import dummyWeatherData from './dummyWeatherData.json'
 
 const useWeatherData = () => {
   const [hourlyWeatherData, setHourlyWeatherData] = useState([]);
@@ -36,7 +36,7 @@ const useWeatherData = () => {
     .then(response => response.json())
     .then(data => {
       console.log(data);
-      setHourlyWeatherData(data);
+      setHourlyWeatherData(Array.isArray(data) ? data : dummyWeatherData);
     });
   }
 
